@@ -1,0 +1,8 @@
+version: '3.8'
+services:
+  yuva-ui-app:
+    image: yuva-web:app$BUILD_NUMBER
+    build: .
+    container_name: yuvac1
+    ports:
+    - 1234:80
