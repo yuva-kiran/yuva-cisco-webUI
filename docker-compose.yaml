@@ -4,5 +4,5 @@ services:
     image: yuva-web:app$BUILD_NUMBER
     build: .
     container_name: yuvac1
-    ports:
-    - 1234:80
+    ports:  #use between 1234 till 6000
+    - 3436:80
