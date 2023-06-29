@@ -3,6 +3,6 @@ services:
   yuva-ui-app:
     image: yuva-web:app$BUILD_NUMBER
     build: .
-    container_name: yuvac1
+    container_name: yuvac2
     ports:  #use between 1234 till 6000
     - 3436:80
